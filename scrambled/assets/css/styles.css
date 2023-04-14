@@ -1,0 +1,260 @@
+body {
+    background-color: #ffb300;
+    margin: 0px;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.topnav {
+    display: flex;
+    background-color: #eba500;
+    color: whitesmoke;
+    height: 75px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+@media (min-device-width:320px) and (max-device-width:768px) {
+    .topnav .logo {
+        font-size: 25px;
+    }
+}
+
+.topnav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.topnav a:hover {
+    color: #ab7af5;
+}
+
+.topnav .logo {
+    font-size: 50px;
+    float: left;
+    padding-left: -100px;
+}
+
+.navlinks {
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+.topnav button {
+    background-color: #ffb300;
+    border-radius: 3px;
+    border-style: none;
+    color: whitesmoke;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.topnav button:hover {
+    color: #ab7af5;
+}
+
+.indexentirescreen {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 75px;
+    bottom: 0px;
+    color: whitesmoke;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.indexentirescreen h {
+    font-size: 50px;
+}
+
+.gameentirescreen {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 75px;
+    bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.playentirescreen {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 75px;
+    bottom: 0px;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.playentirescreen h {
+    font-size: 50px;
+}
+
+.playbuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playbuttons button {
+    background-color: #ffb300;
+    color: whitesmoke;
+    font-family: 'Tilt Neon', cursive;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 250px;
+}
+
+.playbuttons button:hover {
+    color: #ab7af5;
+}
+
+.gamediv {
+    display: flex;
+    box-sizing: border-box;
+    color: whitesmoke;
+    background-color: #eba500;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding-top: 8px;
+}
+
+.gamediv h {
+    font-size: 30px;
+}
+
+.gamediv input {
+    background-color: #ffb300;
+    border:0;
+    border-bottom:1px solid #eee;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: whitesmoke;
+    opacity: 1;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.gamediv button {
+    background-color: #ffb300;
+    border-style: none;
+    color: whitesmoke;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.gamediv button:hover {
+    color: #ab7af5;
+}
+
+.endscreen {
+    display: none;
+}
+
+.gameoverentirescreen {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 75px;
+    bottom: 0px;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.gameoverdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yup button:hover {
+    color: #ab7af5;
+}
+
+.logindiv {
+    display: flex;
+    box-sizing: border-box;
+    color: whitesmoke;
+    background-color: #eba500;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    padding-top: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logindiv form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: inherit;
+}
+
+.logindiv form input {
+    border: 2px solid whitesmoke;
+    background-color: #ffb300;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 8px;
+    font-size: 25px;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.logindiv form button {
+    background-color: #ffb300;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    font-family: 'Tilt Neon', cursive;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.logindiv form input:focus {
+    outline-color: #ab7af5;
+}
+
+::-ms-reveal {
+    filter: invert(58%) sepia(72%) saturate(3971%) hue-rotate(227deg) brightness(106%) contrast(92%);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: whitesmoke;
+    opacity: 1; /* Firefox */
+}
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: whitesmoke;
+}
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: whitesmoke;
+}
+
+.leaderboardentirescreen {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 75px;
+    bottom: 0px;
+    justify-content: center;
+    color: whitesmoke;
+}
